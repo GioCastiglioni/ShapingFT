@@ -61,7 +61,7 @@ class UTAE_Encoder(Encoder):
                 s=2,
                 p=1,
                 pad_value=0,
-                norm="gropu",
+                norm="group",
                 padding_mode="reflect",
             )
             for i in range(len(self.topology) - 1)

@@ -60,7 +60,7 @@ class UTAE(Decoder):
                 k=4,
                 s=2,
                 p=1,
-                norm="batch",
+                norm="group",
                 padding_mode="reflect",
             )
             for i in range(len(self.topology) - 1, 0, -1)
